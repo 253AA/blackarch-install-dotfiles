@@ -286,7 +286,22 @@ fc-cache -v
 ```
 reboot
 ```
-
+Iniciamos sesion y abrimos la terminal
+```
+rm ~/.config/polybar/current.ini
+```
+```
+rm ~/.config/polybar/workspace.ini
+```
+```
+cd ~/.config/polybar/
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/workspace.ini
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/current.ini
+``
 
 
 
