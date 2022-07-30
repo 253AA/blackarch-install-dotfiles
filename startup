@@ -14,6 +14,7 @@ xmodmap "/home/alr/.Xmodmap"
 # wmnd &
 # wmsmixer -w &
 # idesk &
+~/.config/polybar/./launch.sh &
 xcompmgr -c &
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
