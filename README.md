@@ -177,6 +177,56 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 ```
 zsh
 ```
+Cierra y vuelve a abrir la terminal
+```
+rm ~/.p10k.zsh
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/p10k.zsh
+```
+```
+mv p10k.zsh ~/.p10k.zsh
+```
+```
+sudo su
+```
+```
+ln -s -f /home/user/.zshrc /root/.zshrc
+```
+```
+usermod --shell /usr/bin/zsh root
+```
+```
+cd
+```
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+```
+```
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
+```
+p10k configure
+```
+Cierra y vuelve a abrir la terminal
+```
+sudo su
+```
+```
+cd
+```
+```
+rm ~/.p10k.zsh
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/p10k.zsh-root
+```
+```
+mv p10k.zsh-root ~/.p10k.zsh
+```
+
+
+
 
 
 
