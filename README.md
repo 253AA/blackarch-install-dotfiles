@@ -224,7 +224,40 @@ wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/p10
 ```
 mv p10k.zsh-root ~/.p10k.zsh
 ```
-
+```
+reboot
+```
+Inicia sesion y abre una terminal
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+```
+```
+~/.fzf/install
+```
+```
+sudo su
+```
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+```
+```
+~/.fzf/install
+```
+```
+pacman -S neovim
+```
+```
+exit
+```
+```
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+```
+```
+sudo su
+```
+```
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+```
 
 
 
