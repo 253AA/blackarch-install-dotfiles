@@ -54,5 +54,25 @@ sudo pacman -S kitty nautilus ranger libreoffice nvim gedit
 ```
 paru -S brave-bin
 ```
-
-
+***Configurando Fluxbox***
+```
+cd ~/.fluxbox
+```
+```
+rm menu
+```
+```
+rm keys
+```
+```
+rm startup
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/menu
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/keys
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/startup
+``
