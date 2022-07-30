@@ -49,7 +49,7 @@ makepkg -si
 
 ***Instalacion de programas:***
 ```
-sudo pacman -S kitty nautilus ranger libreoffice nvim gedit picom
+sudo pacman -S kitty nautilus ranger libreoffice nvim gedit picom rofi
 ```
 ```
 paru -S brave-bin
@@ -313,6 +313,7 @@ wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/pic
 ```
 Cerramos la sesion y la volvemos a iniciar
 ```
+
 
 
 
