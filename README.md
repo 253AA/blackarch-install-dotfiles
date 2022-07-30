@@ -75,4 +75,27 @@ wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/key
 ```
 ```
 wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/startup
-``
+```
+***Configurando la nueva Kitty***
+1. Abrimos nuestra terminal kitty con Win+Enter
+```
+sudo pacman -S zsh
+```
+```
+sudo su
+```
+```
+usermod --shell /usr/bin/zsh/ user
+```
+Cierra y vuelve a abrir la consola
+```
+sudo su
+```
+```
+localectl set-x11-keymap latam
+```
+```
+reboot
+```
+
+
