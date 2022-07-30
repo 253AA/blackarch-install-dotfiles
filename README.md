@@ -54,3 +54,5 @@ sudo pacman -S kitty nautilus ranger libreoffice nvim gedit
 ```
 paru -S brave-bin
 ```
+
+
