@@ -97,5 +97,15 @@ localectl set-x11-keymap latam
 ```
 reboot
 ```
+```
+rm -rf ~/.zshrc
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/zshrc
+```
+```
+mv ~/zshrc ~/.zshrc
+```
+
 
 
