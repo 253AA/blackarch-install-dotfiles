@@ -49,7 +49,7 @@ makepkg -si
 
 ***Instalacion de programas:***
 ```
-sudo pacman -S kitty nautilus ranger libreoffice nvim gedit 
+sudo pacman -S kitty nautilus ranger libreoffice nvim gedit picom
 ```
 ```
 paru -S brave-bin
@@ -301,7 +301,20 @@ wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/wor
 ```
 ```
 wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/current.ini
-``
+```
+```
+mkdir ~/.config/picom
+```
+```
+cd ~/.config/picom 
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/picom.conf
+```
+Cerramos la sesion y la volvemos a iniciar
+```
+
+
 
 
 
