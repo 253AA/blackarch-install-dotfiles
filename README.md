@@ -97,6 +97,7 @@ localectl set-x11-keymap latam
 ```
 reboot
 ```
+Volvemos a abrir la terminal
 ```
 rm -rf ~/.zshrc
 ```
@@ -106,6 +107,37 @@ wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/zsh
 ```
 mv ~/zshrc ~/.zshrc
 ```
-
-
+```
+paru -S zsh-syntax-kighlighting zsh-autosuggestions
+```
+```
+sudo pacman -S locate
+```
+```
+updatedb
+```
+Cierra y vuelve a abrir la terminal
+```
+cd /usr/share
+```
+```
+sudo mkdir zsh-sudo
+```
+```
+sudo chown user:user zsh-sudo/
+```
+```
+cd !$
+```
+```
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh
+```
+Cierra y vuelve a abrir la terminal
+```
+sudo pacman -S lsd bat
+```
+```
+paru -S scrub
+```
+Dirigete a [Nerd Fonts] (https://www.nerdfonts.com/font-downloads)
 
