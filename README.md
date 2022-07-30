@@ -139,5 +139,44 @@ sudo pacman -S lsd bat
 ```
 paru -S scrub
 ```
-Dirigete a [Nerd Fonts] (https://www.nerdfonts.com/font-downloads)
+Dirigete a [Nerd Fonts](https://www.nerdfonts.com/font-downloads), busca **Hack Nerd Font** y descargala.
+```
+cd /usr/share/fonts
+```
+```
+sudo mv /home/user/Downloads/Hack.zip .
+```
+```
+sudo unzip Hack.zip
+```
+```
+rm Hack.zip
+```
+```
+cd ~/.config/kitty/
+```
+```
+rm kitty.conf
+```
+```
+wget https://raw.githubusercontent.com/rxyhn/bspdots/main/config/kitty/color.ini
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/kitty.conf
+```
+Cierra y vuelve a abrir la terminal
+```
+cd
+```
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+```
+```
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
+```
+zsh
+```
+
+
 
