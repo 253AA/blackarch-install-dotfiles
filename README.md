@@ -27,3 +27,30 @@ sudo pacman -S 0d1n 0trace 3proxy 3proxy-win32 42zip a2sv abcd abuse-ssl-bypass-
   - ```
     pacman -S blackarch
     ```
+***Instalamos paru***
+```
+pacman -S git
+```
+```
+mkdir -p ~/Desktop/user/repos
+```
+```
+cd !$
+```
+```
+git clone https://aur.archlinux.org/paru-bin.git
+```
+```
+cd paru-bin
+```
+```
+makepkg -si
+```
+
+***Instalacion de programas:***
+```
+sudo pacman -S kitty nautilus ranger libreoffice nvim gedit 
+```
+```
+paru -S brave-bin
+```
