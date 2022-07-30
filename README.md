@@ -258,7 +258,34 @@ sudo su
 ```
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ```
-
+***Instalando y configurando la polybar***
+```
+sudo pacman -S polybar
+```
+```
+git clone https://github.com/VaughnValle/blue-sky.git
+```
+```
+mkdir ~/.config/polybar
+```
+```
+cd ~/blue-sky/polybar/
+```
+```
+cp * -r ~/.config/polybar
+```
+```
+cd fonts
+```
+```
+sudo cp * /usr/share/fonts/truetype/
+```
+```
+fc-cache -v
+```
+```
+reboot
+```
 
 
 
