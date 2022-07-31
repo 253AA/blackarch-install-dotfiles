@@ -330,6 +330,15 @@ wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/wor
 wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/current.ini
 ```
 ```
+cd ~/.config/polybar/scripts/
+```
+```
+rm powermenu_alt
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/powermenu_alt
+```
+```
 mkdir ~/.config/picom
 ```
 ```
