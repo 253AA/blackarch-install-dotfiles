@@ -338,6 +338,7 @@ rm powermenu_alt
 ```
 wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/powermenu_alt
 ```
+***Configuramos picom***
 ```
 mkdir ~/.config/picom
 ```
@@ -348,8 +349,17 @@ cd ~/.config/picom
 wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/picom.conf
 ```
 Cerramos la sesion y la volvemos a iniciar
+***Configuramos rofi***
 ```
-
+mkdir -p ~/.config/rofi/themes
+```
+```
+cp ~/blue-sky/nord.rasi ~/.config/rofi/themes
+```
+Seleccionamos el tema Nord con el siguiente comando:
+```
+rofi-theme-selector
+```
 
 
 
