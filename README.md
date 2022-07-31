@@ -300,6 +300,12 @@ wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/hac
 wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/ethernet_status.sh
 ```
 ```
+chmod +x ethernet_status.sh
+```
+```
+chmod +x hackthebox_status.sh
+```
+```
 cd ~/.config/polybar/scripts/themes/
 ```
 ```
