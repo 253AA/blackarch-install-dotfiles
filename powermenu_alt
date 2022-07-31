@@ -26,13 +26,5 @@ case $chosen in
     $lock)
         i3lock
         ;;
-    $suspend)
-        mpc -q pause
-        amixer set Master mute
-        systemctl suspend
-        ;;
-    $logout)
-        fluxbox --exit
-        ;;
 esac
 
