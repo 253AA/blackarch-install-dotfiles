@@ -288,6 +288,27 @@ reboot
 ```
 Iniciamos sesion y abrimos la terminal
 ```
+mkdir ~/.config/bin
+```
+```
+cd !$
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/hackthebox_status.sh
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/ethernet_status.sh
+```
+```
+cd ~/.config/polybar/scripts/themes/
+```
+```
+rm powermenu_alt.rasi
+```
+```
+wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/powermenu_alt.rasi
+```
+```
 rm ~/.config/polybar/current.ini
 ```
 ```
