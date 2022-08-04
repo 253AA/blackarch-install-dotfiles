@@ -49,7 +49,7 @@ makepkg -si
 
 ***Instalacion de programas:***
 ```
-sudo pacman -S kitty nautilus ranger libreoffice nvim gedit picom rofi
+sudo pacman -S kitty nautilus ranger libreoffice neovim gedit picom rofi
 ```
 ```
 paru -S brave-bin
