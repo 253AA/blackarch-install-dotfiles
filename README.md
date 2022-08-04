@@ -108,7 +108,7 @@ wget https://raw.githubusercontent.com/253AA/blackarch-install-dotfiles/main/zsh
 mv ~/zshrc ~/.zshrc
 ```
 ```
-paru -S zsh-syntax-kighlighting zsh-autosuggestions
+paru -S zsh-syntax-highlighting zsh-autosuggestions
 ```
 ```
 sudo pacman -S locate
